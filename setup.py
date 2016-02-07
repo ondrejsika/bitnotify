@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='bitmondo',
+    name='bitnotify',
     version='0.0.0',
-    description='Show your Bitcoin transactions at the Mondo feed',
-    url='https://github.com/ondrejsika/bitmondo',
+    description='Send email notification after change on your bitcoin wallet or bip44 account',
+    url='https://github.com/ondrejsika/bitnotify',
     author='Ondrej Sika',
     author_email='ondrej@ondrejsika.com',
     packages=find_packages(),

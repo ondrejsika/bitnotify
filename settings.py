@@ -22,7 +22,7 @@ INSTALLED_APPS = (
 
     'bootstrap',
 
-    'mondo',
+    'bitnotify',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -74,8 +74,11 @@ USE_TZ = True
 STATIC_URL = '/static/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static', 'static')
 
-MONDO_AUTH_URL = settings_local.MONDO_AUTH_URL
-MONDO_API_URL = settings_local.MONDO_API_URL
-MONDO_CLIENT_ID = settings_local.MONDO_CLIENT_ID
-MONDO_CLIENT_SECRET = settings_local.MONDO_CLIENT_SECRET
-MONDO_REDIRECT_URL = settings_local.MONDO_REDIRECT_URL
+EMAIL_HOST = settings_local.EMAIL_HOST
+EMAIL_PORT = settings_local.EMAIL_PORT
+EMAIL_HOST_USER = settings_local.EMAIL_HOST_USER
+EMAIL_HOST_PASSWORD = settings_local.EMAIL_HOST_PASSWORD
+EMAIL_USE_TLS = settings_local.EMAIL_USE_TLS
+
+DEFAULT_EMAIL_FROM = settings_local.DEFAULT_EMAIL_FROM
+

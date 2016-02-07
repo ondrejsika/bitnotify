@@ -1,0 +1,1 @@
+[BitNotify][{{wallet_short}}...] Balance has been changed {{change}}

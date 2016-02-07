@@ -1,10 +1,10 @@
 from django.core.management.base import BaseCommand
 
-from mondo.cron import cron
+from bitnotify.cron import cron
 
 
 class Command(BaseCommand):
-    help = 'Run mondo cron task defined in mondo/cron.py'
+    help = 'Run bitnotify cron task defined in bitnotify/cron.py'
 
     def handle(self, *args, **options):
         cron()
