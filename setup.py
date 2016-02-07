@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='bitnotify',
-    version='0.0.0',
+    version='0.1.0',
     description='Send email notification after change on your bitcoin wallet or bip44 account',
     url='https://github.com/ondrejsika/bitnotify',
     author='Ondrej Sika',

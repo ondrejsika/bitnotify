@@ -30,3 +30,11 @@ Setup cron job
 __<http://bitnotify.sikaapp.cz>__
 
 
+## Change log
+
+#### v0.1.0
+
+- first working release
+- only single wallet support
+- without registration and front-end
+
