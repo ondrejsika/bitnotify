@@ -1,6 +1,6 @@
-# BitMondo
+# BitNotify
 
-Show your Bitcoin transactions at the Mondo feed
+Send email notification after change on your bitcoin wallet or bip44 account
 
 - author: Ondrej Sika <ondrej@ondrejsika.com>
 
@@ -9,8 +9,8 @@ Show your Bitcoin transactions at the Mondo feed
 
 Setup base project
 
-    git clone git@github.com:ondrejsika/bitmondo.git
-    cd bitmondo
+    git clone git@github.com:ondrejsika/bitnotify.git
+    cd bitnotify
     virtualenv .env
     source .env/bin/activate
     pip install -e .
@@ -23,18 +23,10 @@ Run in gunicorn
 Setup cron job
 
     # add to your crontab
-    * * * * * cd /home/projects/bitmondo && .env/bin/python manage.py mondo_cron
+    * * * * * cd /home/projects/bitnotify && .env/bin/python manage.py bitnotify_cron
 
 ## Live version
 
-It works only with my account :(
+__<http://bitnotify.sikaapp.cz>__
 
-__<http://bitmondo.sikaapp.cz>__
-
-
-
-## Screenshot
-
-![](BitMondo_01.png)
-![](BitMondo_02.png)
 
