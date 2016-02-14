@@ -13,6 +13,7 @@ setup(
         'django==1.8.8',
         'requests==2.9.1',
         'gunicorn==19.4.5',
-    ],
+        'bip32utils==0.3-1',
+     ],
 )
 

@@ -1,0 +1,5 @@
+{{xpub_short}}
+{{wallet}}: {{change}}
+
+https://blockchain.info/address/{{wallet}}
+
