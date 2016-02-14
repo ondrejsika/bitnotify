@@ -4,6 +4,7 @@ Send email notification after change on your bitcoin wallet or bip44 account
 
 - author: Ondrej Sika <ondrej@ondrejsika.com>
 
+Tips are welcome to address [__1DhDxyquETrhKk3m6TkHreegr3yFmf8FkB__](https://blockchain.info/address/1DhDxyquETrhKk3m6TkHreegr3yFmf8FkB)
 
 ## Installation
 
