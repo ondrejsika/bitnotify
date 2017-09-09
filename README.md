@@ -27,6 +27,25 @@ Setup cron job
     # add to your crontab
     * * * * * cd /home/projects/bitnotify && .env/bin/python manage.py bitnotify_cron
 
+## Docker Installation
+
+Setup
+
+    git clone git@github.com:ondrejsika/bitnotify.git
+    cd bitnotify
+    ./docker-build.sh
+    cp settings_local--template.py settings_local.py
+    # vim settings_local.py
+
+run
+
+    docker run --name bitnotify -p 9999:80 -v `pwd`/db:/app/db/ -v `pwd`/settings_local.py:/app/settings_local.py ondrejsika/bitnotify
+
+and setup cron
+
+    # add to your crontab
+    * * * * * docker exec -ti bitnotify python manage.py bitnotify_cron
+
 ## Live version
 
 __<http://bitnotify.sikaapp.cz>__
